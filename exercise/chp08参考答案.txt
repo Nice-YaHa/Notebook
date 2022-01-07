@@ -1,0 +1,69 @@
+ABCD
+BC
+ABDE
+B
+B
+B
+ABCD
+AC
+CDE
+BE
+
+
+1.
+300
+200
+300
+400
+
+2.
+1
+2
+3
+
+3.
+In Sttaic
+Myclass()
+20
+Myclass(int)
+10
+
+4.
+不能。final修饰的方法不能重写，要么去掉父类的final，要么去掉子类的重写
+
+5.
+In ClassA Static
+ClassA()
+In MyClass Static
+In ClassB Static 
+In ClassC Static
+ClassB()
+ClassC()
+MyClass()
+ClassB()
+ClassC()
+MyClass()
+false
+true
+
+
+
+参考答案
+public class MyClass {
+	private int count = 0;
+	public MyClass(){
+		count ++;
+	}
+	public int getCount(){
+		return count;
+	}
+}
+
+
+
+
+
+
+
+
+
